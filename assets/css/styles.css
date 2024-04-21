@@ -1,0 +1,98 @@
+
+:root{
+    --dark:#13293d;
+
+}
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  
+
+}
+header{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    text-align: center;
+    background-color:var(--dark);
+    width: 100%;
+    height: 110px;
+    justify-content:left;
+    color: #fff;
+    
+}
+.photo{
+    
+    margin-top: 0px;
+    padding: 30px;
+    width: 100px;
+    height:80px;
+    border: 2px solid#fff;
+    border-radius: 100px;
+    background-image: url(../images/jadon.JPG);
+    background-size: cover;
+
+}
+nav{
+   display: flex;
+   justify-content:right; 
+
+}
+nav a{
+    padding: 10px 35px;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid var(--dark);
+    border-radius: 20px;
+}
+.Wel{
+    padding: 20px;
+    margin-left: 80px;
+    font-size: 60px;
+}
+nav a:hover{
+    background-color: #13293d;
+    color: #fff;
+}
+.About-Me{
+    height: 200px;
+    border-bottom: 2px solid var(--dark);
+}
+.About-me-title{
+    padding: 20PX;
+    margin-top: 40PX;
+    width: 200px;
+    height: 200px;
+    border-right: 2px solid var(--dark);
+}
+@media screen and (max-width:1400px) {
+    .Wel{
+        font-size: 50px;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .Wel{
+        font-size: 30px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    .Wel{
+        font-size: 24px;
+    }
+  }
+  @media screen and (max-width:762px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    .Wel{
+        font-size: 12px;
+    }
+  }
+  
